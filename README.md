@@ -5,9 +5,9 @@
 ### Top level Program Structure
 
 ```
-Program            → DeclarationList
-DeclarationList    → Declaration DeclarationList | ε
-Declaration        → VarDeclaration | FunctionDeclaration | Statement
+**Program**            → **DeclarationList**
+**DeclarationList**    → **Declaration** **DeclarationList** | ε
+**Declaration**        → **VarDeclaration** | **FunctionDeclaration** | **Statement**
 ```
 
 ### Variable & Function Declarations with Types
