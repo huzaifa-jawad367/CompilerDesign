@@ -93,3 +93,10 @@ ArgumentList       → Expression ArgumentListTail
 ArgumentListTail   → , Expression ArgumentListTail | ε
 ```
 
+### Literals
+
+```
+Literal            → Number | BooleanLiteral
+BooleanLiteral     → true | false
+```
+
